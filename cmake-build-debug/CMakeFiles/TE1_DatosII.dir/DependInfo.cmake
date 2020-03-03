@@ -5,13 +5,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/AlgebraLib.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o"
-  "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Dijkstra.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o"
+  "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/DijkstraWalker.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/DijkstraWalker.cpp.o"
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Graph.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o"
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/GraphNode.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o"
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Node.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.o"
-  "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Util.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o"
+  "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Walker.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/Walker.cpp.o"
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/algorithm.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/algorithm.cpp.o"
+  "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/client.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/client.cpp.o"
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/main.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/main.cpp.o"
+  "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/server.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/server.cpp.o"
   "/home/yendry/CLionProjects/TE1-DatosII/TE1/src/structures.cpp" "/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles/TE1_DatosII.dir/TE1/src/structures.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

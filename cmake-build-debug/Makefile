@@ -150,32 +150,32 @@ TE1/src/AlgebraLib.cpp.s:
 	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.s
 .PHONY : TE1/src/AlgebraLib.cpp.s
 
-TE1/src/Dijkstra.o: TE1/src/Dijkstra.cpp.o
+TE1/src/DijkstraWalker.o: TE1/src/DijkstraWalker.cpp.o
 
-.PHONY : TE1/src/Dijkstra.o
+.PHONY : TE1/src/DijkstraWalker.o
 
 # target to build an object file
-TE1/src/Dijkstra.cpp.o:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o
-.PHONY : TE1/src/Dijkstra.cpp.o
+TE1/src/DijkstraWalker.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/DijkstraWalker.cpp.o
+.PHONY : TE1/src/DijkstraWalker.cpp.o
 
-TE1/src/Dijkstra.i: TE1/src/Dijkstra.cpp.i
+TE1/src/DijkstraWalker.i: TE1/src/DijkstraWalker.cpp.i
 
-.PHONY : TE1/src/Dijkstra.i
+.PHONY : TE1/src/DijkstraWalker.i
 
 # target to preprocess a source file
-TE1/src/Dijkstra.cpp.i:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.i
-.PHONY : TE1/src/Dijkstra.cpp.i
+TE1/src/DijkstraWalker.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/DijkstraWalker.cpp.i
+.PHONY : TE1/src/DijkstraWalker.cpp.i
 
-TE1/src/Dijkstra.s: TE1/src/Dijkstra.cpp.s
+TE1/src/DijkstraWalker.s: TE1/src/DijkstraWalker.cpp.s
 
-.PHONY : TE1/src/Dijkstra.s
+.PHONY : TE1/src/DijkstraWalker.s
 
 # target to generate assembly for a file
-TE1/src/Dijkstra.cpp.s:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.s
-.PHONY : TE1/src/Dijkstra.cpp.s
+TE1/src/DijkstraWalker.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/DijkstraWalker.cpp.s
+.PHONY : TE1/src/DijkstraWalker.cpp.s
 
 TE1/src/Graph.o: TE1/src/Graph.cpp.o
 
@@ -258,32 +258,32 @@ TE1/src/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.s
 .PHONY : TE1/src/Node.cpp.s
 
-TE1/src/Util.o: TE1/src/Util.cpp.o
+TE1/src/Walker.o: TE1/src/Walker.cpp.o
 
-.PHONY : TE1/src/Util.o
+.PHONY : TE1/src/Walker.o
 
 # target to build an object file
-TE1/src/Util.cpp.o:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o
-.PHONY : TE1/src/Util.cpp.o
+TE1/src/Walker.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Walker.cpp.o
+.PHONY : TE1/src/Walker.cpp.o
 
-TE1/src/Util.i: TE1/src/Util.cpp.i
+TE1/src/Walker.i: TE1/src/Walker.cpp.i
 
-.PHONY : TE1/src/Util.i
+.PHONY : TE1/src/Walker.i
 
 # target to preprocess a source file
-TE1/src/Util.cpp.i:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.i
-.PHONY : TE1/src/Util.cpp.i
+TE1/src/Walker.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Walker.cpp.i
+.PHONY : TE1/src/Walker.cpp.i
 
-TE1/src/Util.s: TE1/src/Util.cpp.s
+TE1/src/Walker.s: TE1/src/Walker.cpp.s
 
-.PHONY : TE1/src/Util.s
+.PHONY : TE1/src/Walker.s
 
 # target to generate assembly for a file
-TE1/src/Util.cpp.s:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.s
-.PHONY : TE1/src/Util.cpp.s
+TE1/src/Walker.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Walker.cpp.s
+.PHONY : TE1/src/Walker.cpp.s
 
 TE1/src/algorithm.o: TE1/src/algorithm.cpp.o
 
@@ -312,6 +312,33 @@ TE1/src/algorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/algorithm.cpp.s
 .PHONY : TE1/src/algorithm.cpp.s
 
+TE1/src/client.o: TE1/src/client.cpp.o
+
+.PHONY : TE1/src/client.o
+
+# target to build an object file
+TE1/src/client.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/client.cpp.o
+.PHONY : TE1/src/client.cpp.o
+
+TE1/src/client.i: TE1/src/client.cpp.i
+
+.PHONY : TE1/src/client.i
+
+# target to preprocess a source file
+TE1/src/client.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/client.cpp.i
+.PHONY : TE1/src/client.cpp.i
+
+TE1/src/client.s: TE1/src/client.cpp.s
+
+.PHONY : TE1/src/client.s
+
+# target to generate assembly for a file
+TE1/src/client.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/client.cpp.s
+.PHONY : TE1/src/client.cpp.s
+
 TE1/src/main.o: TE1/src/main.cpp.o
 
 .PHONY : TE1/src/main.o
@@ -338,6 +365,33 @@ TE1/src/main.s: TE1/src/main.cpp.s
 TE1/src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/main.cpp.s
 .PHONY : TE1/src/main.cpp.s
+
+TE1/src/server.o: TE1/src/server.cpp.o
+
+.PHONY : TE1/src/server.o
+
+# target to build an object file
+TE1/src/server.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/server.cpp.o
+.PHONY : TE1/src/server.cpp.o
+
+TE1/src/server.i: TE1/src/server.cpp.i
+
+.PHONY : TE1/src/server.i
+
+# target to preprocess a source file
+TE1/src/server.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/server.cpp.i
+.PHONY : TE1/src/server.cpp.i
+
+TE1/src/server.s: TE1/src/server.cpp.s
+
+.PHONY : TE1/src/server.s
+
+# target to generate assembly for a file
+TE1/src/server.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/server.cpp.s
+.PHONY : TE1/src/server.cpp.s
 
 TE1/src/structures.o: TE1/src/structures.cpp.o
 
@@ -378,9 +432,9 @@ help:
 	@echo "... TE1/src/AlgebraLib.o"
 	@echo "... TE1/src/AlgebraLib.i"
 	@echo "... TE1/src/AlgebraLib.s"
-	@echo "... TE1/src/Dijkstra.o"
-	@echo "... TE1/src/Dijkstra.i"
-	@echo "... TE1/src/Dijkstra.s"
+	@echo "... TE1/src/DijkstraWalker.o"
+	@echo "... TE1/src/DijkstraWalker.i"
+	@echo "... TE1/src/DijkstraWalker.s"
 	@echo "... TE1/src/Graph.o"
 	@echo "... TE1/src/Graph.i"
 	@echo "... TE1/src/Graph.s"
@@ -390,15 +444,21 @@ help:
 	@echo "... TE1/src/Node.o"
 	@echo "... TE1/src/Node.i"
 	@echo "... TE1/src/Node.s"
-	@echo "... TE1/src/Util.o"
-	@echo "... TE1/src/Util.i"
-	@echo "... TE1/src/Util.s"
+	@echo "... TE1/src/Walker.o"
+	@echo "... TE1/src/Walker.i"
+	@echo "... TE1/src/Walker.s"
 	@echo "... TE1/src/algorithm.o"
 	@echo "... TE1/src/algorithm.i"
 	@echo "... TE1/src/algorithm.s"
+	@echo "... TE1/src/client.o"
+	@echo "... TE1/src/client.i"
+	@echo "... TE1/src/client.s"
 	@echo "... TE1/src/main.o"
 	@echo "... TE1/src/main.i"
 	@echo "... TE1/src/main.s"
+	@echo "... TE1/src/server.o"
+	@echo "... TE1/src/server.i"
+	@echo "... TE1/src/server.s"
 	@echo "... TE1/src/structures.o"
 	@echo "... TE1/src/structures.i"
 	@echo "... TE1/src/structures.s"

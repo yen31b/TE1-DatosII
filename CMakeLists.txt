@@ -10,7 +10,7 @@ add_executable(TE1_DatosII
         TE1/include/structures.hpp
         TE1/src/algorithm.cpp
         TE1/src/main.cpp
-        TE1/src/structures.cpp TE1/src/Node.cpp TE1/include/Node.h TE1/include/Graph.h TE1/src/Graph.cpp TE1/include/DijkstraWalker.h TE1/src/DijkstraWalker.cpp TE1/include/GraphNode.h TE1/src/GraphNode.cpp TE1/include/AlgebraLib.h TE1/src/AlgebraLib.cpp)
+        TE1/src/structures.cpp TE1/src/Node.cpp TE1/include/Node.h TE1/include/Graph.h TE1/src/Graph.cpp TE1/include/DijkstraWalker.h TE1/src/DijkstraWalker.cpp TE1/include/GraphNode.h TE1/src/GraphNode.cpp TE1/include/AlgebraLib.h TE1/src/AlgebraLib.cpp TE1/src/Walker.cpp TE1/include/Walker.h TE1/src/Server.cpp TE1/src/Client.cpp)
 
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
