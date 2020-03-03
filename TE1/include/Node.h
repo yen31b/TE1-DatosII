@@ -105,44 +105,5 @@ private:
 };
 
 
-class RouterNodeConf : public NodeConf {
-
-public:
-
-    RouterNodeConf();
-    enum RouterNodeType { RT_NONE, RT_LEAF, RT_BORDER, RT_STUB, RT_BACKBONE };
-    RouterNodeType GetRouterType() { return rttype; }
-    void SetRouterType(RouterNodeType t) { rttype = t; }
-    int GetASId() { return ASid; }
-    void SetASId(int i) { ASid = i; }
-
-private:
-
-    RouterNodeType rttype;
-    int ASid;
-
-};
-
-class ASNodeConf : public NodeConf {
-
-public:
-
-    enum ASNodeType {AS_NONE, AS_LEAF, AS_STUB, AS_BORDER, AS_BACKBONE};
-    ASNodeConf();
-    ~ASNodeConf();
-    Topology* GetTopology() { return t; }
-    void SetTopology(Topology* top, int asid);
-    ASNodeType GetASType() { return astype; }
-    void SetASType(ASNodeType t) { astype = t; }
-    int GetASId() { return ASid; }
-    void SetASId(int i) { ASid = i; }
-
-private:
-
-    Topology* t;
-    ASNodeType astype;
-    int ASid;
-
-};
 
 #endif /* NODE_H */

@@ -123,32 +123,59 @@ TE1_DatosII/fast:
 	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/build
 .PHONY : TE1_DatosII/fast
 
-TE1/src/Edge.o: TE1/src/Edge.cpp.o
+TE1/src/AlgebraLib.o: TE1/src/AlgebraLib.cpp.o
 
-.PHONY : TE1/src/Edge.o
+.PHONY : TE1/src/AlgebraLib.o
 
 # target to build an object file
-TE1/src/Edge.cpp.o:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o
-.PHONY : TE1/src/Edge.cpp.o
+TE1/src/AlgebraLib.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o
+.PHONY : TE1/src/AlgebraLib.cpp.o
 
-TE1/src/Edge.i: TE1/src/Edge.cpp.i
+TE1/src/AlgebraLib.i: TE1/src/AlgebraLib.cpp.i
 
-.PHONY : TE1/src/Edge.i
+.PHONY : TE1/src/AlgebraLib.i
 
 # target to preprocess a source file
-TE1/src/Edge.cpp.i:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.i
-.PHONY : TE1/src/Edge.cpp.i
+TE1/src/AlgebraLib.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.i
+.PHONY : TE1/src/AlgebraLib.cpp.i
 
-TE1/src/Edge.s: TE1/src/Edge.cpp.s
+TE1/src/AlgebraLib.s: TE1/src/AlgebraLib.cpp.s
 
-.PHONY : TE1/src/Edge.s
+.PHONY : TE1/src/AlgebraLib.s
 
 # target to generate assembly for a file
-TE1/src/Edge.cpp.s:
-	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.s
-.PHONY : TE1/src/Edge.cpp.s
+TE1/src/AlgebraLib.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.s
+.PHONY : TE1/src/AlgebraLib.cpp.s
+
+TE1/src/Dijkstra.o: TE1/src/Dijkstra.cpp.o
+
+.PHONY : TE1/src/Dijkstra.o
+
+# target to build an object file
+TE1/src/Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o
+.PHONY : TE1/src/Dijkstra.cpp.o
+
+TE1/src/Dijkstra.i: TE1/src/Dijkstra.cpp.i
+
+.PHONY : TE1/src/Dijkstra.i
+
+# target to preprocess a source file
+TE1/src/Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.i
+.PHONY : TE1/src/Dijkstra.cpp.i
+
+TE1/src/Dijkstra.s: TE1/src/Dijkstra.cpp.s
+
+.PHONY : TE1/src/Dijkstra.s
+
+# target to generate assembly for a file
+TE1/src/Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.s
+.PHONY : TE1/src/Dijkstra.cpp.s
 
 TE1/src/Graph.o: TE1/src/Graph.cpp.o
 
@@ -176,6 +203,33 @@ TE1/src/Graph.s: TE1/src/Graph.cpp.s
 TE1/src/Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.s
 .PHONY : TE1/src/Graph.cpp.s
+
+TE1/src/GraphNode.o: TE1/src/GraphNode.cpp.o
+
+.PHONY : TE1/src/GraphNode.o
+
+# target to build an object file
+TE1/src/GraphNode.cpp.o:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o
+.PHONY : TE1/src/GraphNode.cpp.o
+
+TE1/src/GraphNode.i: TE1/src/GraphNode.cpp.i
+
+.PHONY : TE1/src/GraphNode.i
+
+# target to preprocess a source file
+TE1/src/GraphNode.cpp.i:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.i
+.PHONY : TE1/src/GraphNode.cpp.i
+
+TE1/src/GraphNode.s: TE1/src/GraphNode.cpp.s
+
+.PHONY : TE1/src/GraphNode.s
+
+# target to generate assembly for a file
+TE1/src/GraphNode.cpp.s:
+	$(MAKE) -f CMakeFiles/TE1_DatosII.dir/build.make CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.s
+.PHONY : TE1/src/GraphNode.cpp.s
 
 TE1/src/Node.o: TE1/src/Node.cpp.o
 
@@ -321,12 +375,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TE1_DatosII"
 	@echo "... edit_cache"
-	@echo "... TE1/src/Edge.o"
-	@echo "... TE1/src/Edge.i"
-	@echo "... TE1/src/Edge.s"
+	@echo "... TE1/src/AlgebraLib.o"
+	@echo "... TE1/src/AlgebraLib.i"
+	@echo "... TE1/src/AlgebraLib.s"
+	@echo "... TE1/src/Dijkstra.o"
+	@echo "... TE1/src/Dijkstra.i"
+	@echo "... TE1/src/Dijkstra.s"
 	@echo "... TE1/src/Graph.o"
 	@echo "... TE1/src/Graph.i"
 	@echo "... TE1/src/Graph.s"
+	@echo "... TE1/src/GraphNode.o"
+	@echo "... TE1/src/GraphNode.i"
+	@echo "... TE1/src/GraphNode.s"
 	@echo "... TE1/src/Node.o"
 	@echo "... TE1/src/Node.i"
 	@echo "... TE1/src/Node.s"

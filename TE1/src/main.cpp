@@ -4,13 +4,14 @@
 
 #include<algorithm.hpp>
 #include<structures.hpp>
+#include <Graph.h>
 
 using namespace structures;
 using namespace std;
 
 
 // print all neighboring vertices of given vertex
-void printList(Node* ptr, int i)
+/*void printList(Node* ptr, int i)
 {
   while (ptr != nullptr)
   {
@@ -21,11 +22,14 @@ void printList(Node* ptr, int i)
   }
 
   cout << endl;
-}
+}*/
 
 int main(int argc, char const *argv[]){
 
-  Edge edges[] =
+
+
+
+  /*Edge edges[] =
   {
     // (x, y, w) -> edge from x to y having weight w
     { 0, 1, 2 }, { 1, 2, 4 }
@@ -46,8 +50,11 @@ int main(int argc, char const *argv[]){
   {
     // print all neighboring vertices of vertex i
     printList(graph.head[i], i);
-  }
-  
+  }*/
+
+
+
+
 
   return 0;
 }

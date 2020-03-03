@@ -44,35 +44,6 @@ Node::Node(NodeConf* c) {
 
 }
 
-ASNodeConf::ASNodeConf() {
-
-    SetCost(1.0);
-    t = NULL;
-    SetNodeType(AS_NODE);
-    astype = AS_NONE;
-
-}
-
-RouterNodeConf::RouterNodeConf() {
-
-    SetCost(1.0);
-    SetNodeType(RT_NODE);
-    rttype = RT_NONE;
-
-}
-
-
-void ASNodeConf::SetTopology(Topology* top, int asid) {
-
-    t = top;
-    if (t != NULL) {
-        Graph* g = t->GetGraph();
-        for (int i = 0; i < g->GetNumNodes(); i++) {
-            RouterNodeConf* rt_conf = (RouterNodeConf*)(g->GetNodePtr(i)->GetNodeInfo());
-            rt_conf->SetASId(asid);
-        }
-    }
-}
 
 Edge* Node::GetEdge(int v) {
 

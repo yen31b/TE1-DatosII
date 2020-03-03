@@ -109,22 +109,9 @@ CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Node.cpp -o CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.s
 
-CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o: CMakeFiles/TE1_DatosII.dir/flags.make
-CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o: ../TE1/src/Edge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o -c /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Edge.cpp
-
-CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Edge.cpp > CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.i
-
-CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Edge.cpp -o CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.s
-
 CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o: CMakeFiles/TE1_DatosII.dir/flags.make
 CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o: ../TE1/src/Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o -c /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Graph.cpp
 
 CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.i: cmake_force
@@ -137,7 +124,7 @@ CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.s: cmake_force
 
 CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o: CMakeFiles/TE1_DatosII.dir/flags.make
 CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o: ../TE1/src/Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o -c /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Util.cpp
 
 CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.i: cmake_force
@@ -148,15 +135,56 @@ CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Util.cpp -o CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.s
 
+CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o: CMakeFiles/TE1_DatosII.dir/flags.make
+CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o: ../TE1/src/Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o -c /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Dijkstra.cpp
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Dijkstra.cpp > CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.i
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yendry/CLionProjects/TE1-DatosII/TE1/src/Dijkstra.cpp -o CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.s
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o: CMakeFiles/TE1_DatosII.dir/flags.make
+CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o: ../TE1/src/GraphNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o -c /home/yendry/CLionProjects/TE1-DatosII/TE1/src/GraphNode.cpp
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yendry/CLionProjects/TE1-DatosII/TE1/src/GraphNode.cpp > CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.i
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yendry/CLionProjects/TE1-DatosII/TE1/src/GraphNode.cpp -o CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.s
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o: CMakeFiles/TE1_DatosII.dir/flags.make
+CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o: ../TE1/src/AlgebraLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o -c /home/yendry/CLionProjects/TE1-DatosII/TE1/src/AlgebraLib.cpp
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yendry/CLionProjects/TE1-DatosII/TE1/src/AlgebraLib.cpp > CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.i
+
+CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yendry/CLionProjects/TE1-DatosII/TE1/src/AlgebraLib.cpp -o CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.s
+
 # Object files for target TE1_DatosII
 TE1_DatosII_OBJECTS = \
 "CMakeFiles/TE1_DatosII.dir/TE1/src/algorithm.cpp.o" \
 "CMakeFiles/TE1_DatosII.dir/TE1/src/main.cpp.o" \
 "CMakeFiles/TE1_DatosII.dir/TE1/src/structures.cpp.o" \
 "CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.o" \
-"CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o" \
 "CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o" \
-"CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o"
+"CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o" \
+"CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o" \
+"CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o" \
+"CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o"
 
 # External object files for target TE1_DatosII
 TE1_DatosII_EXTERNAL_OBJECTS =
@@ -165,15 +193,17 @@ TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/algorithm.cpp.o
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/main.cpp.o
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/structures.cpp.o
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/Node.cpp.o
-TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/Edge.cpp.o
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/Graph.cpp.o
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/Util.cpp.o
+TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/Dijkstra.cpp.o
+TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/GraphNode.cpp.o
+TE1_DatosII: CMakeFiles/TE1_DatosII.dir/TE1/src/AlgebraLib.cpp.o
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/build.make
 TE1_DatosII: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
 TE1_DatosII: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
 TE1_DatosII: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 TE1_DatosII: CMakeFiles/TE1_DatosII.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TE1_DatosII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yendry/CLionProjects/TE1-DatosII/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TE1_DatosII"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TE1_DatosII.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

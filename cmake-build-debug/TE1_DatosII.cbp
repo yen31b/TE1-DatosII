@@ -102,10 +102,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/Edge.h">
+		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/AlgebraLib.h">
+			<Option target="TE1_DatosII"/>
+		</Unit>
+		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/Dijkstra.h">
 			<Option target="TE1_DatosII"/>
 		</Unit>
 		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/Graph.h">
+			<Option target="TE1_DatosII"/>
+		</Unit>
+		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/GraphNode.h">
 			<Option target="TE1_DatosII"/>
 		</Unit>
 		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/Node.h">
@@ -120,10 +126,16 @@
 		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/include/structures.hpp">
 			<Option target="TE1_DatosII"/>
 		</Unit>
-		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Edge.cpp">
+		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/src/AlgebraLib.cpp">
+			<Option target="TE1_DatosII"/>
+		</Unit>
+		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Dijkstra.cpp">
 			<Option target="TE1_DatosII"/>
 		</Unit>
 		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Graph.cpp">
+			<Option target="TE1_DatosII"/>
+		</Unit>
+		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/src/GraphNode.cpp">
 			<Option target="TE1_DatosII"/>
 		</Unit>
 		<Unit filename="/home/yendry/CLionProjects/TE1-DatosII/TE1/src/Node.cpp">
